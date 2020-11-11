@@ -28,13 +28,23 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. What is the DOM?
 
+The Document Object Model (DOM) is a multi-platform, common application programming interface for any programming language.The DOM interacts with a HTML document and organizes the elements of that document into a node list, allowing developers to analyze the way that data is structured. There are special DOM methods that allow the user to manipulate the data received from the DOM.
+
 2. What is an event?
+
+Event handler(s) are functions attached to DOM nodes or objects. Events can be trigged by event types such as an onclick, ondblclick, onmouseover, etc. The execution of these events is detected by the dom as events are firing, triggered by the user's mouse interactions.
 
 3. What is an event listener?
 
+An event listener is a function that listens for an event on an object. Once the user interaction required event type is triggered, the request or instructions in the function body will trigger.
+
 4. Why would we convert a NodeList into an Array?
 
+We would convert a NodeList into an Array with array.from() because without this method, programmers cannot manipulate the data. Once the NodeList is converted into an Array, this allows developers to apply advanced array methods to utilize the data and filter out for necessary information. This gives us insight into data structures.
+
 5. What is a component?
+
+A component is a single element that is reusable much like a blueprint or casting. Like a traditional factory setting, as developers we manufacture a component and then make the necessary custom modifications on a component to make it unique. Ideally, a default template for a component makes it easier to replicate at a larger scale and keep DRY. Think of a Word document. There are several templates available that can be changed to meet your needs.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
